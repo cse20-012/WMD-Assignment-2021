@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cse20-12</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="feedback.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner">
+           <a href="index.html"><img src="dubai_logo.png" class="logo"></a>
+            <div class="banner-text">
+                <h1>Connect with us</h1>
+            </div>
+        </section>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="lifestyle.html">Lifestyle</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="feedback.html">Connect with us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="menu.png" id="btn">
+        </div>
+
+
+        <div class="news-letter">
+
+            <h1>Subscribe To Our Newsletter</h1>
+
+            <div class="border"></div>
+
+            <form class="contact-form" action="feedback.html" method="post">
+                <input type="text" class="contact-form-text" placeholder="First Name">
+                <input type="text" class="contact-form-text" placeholder="Last Name">
+                <input type="email" class="contact-form-text" placeholder="Email">
+                <input type="text" class="contact-form-text" placeholder="Phone Number">
+                <textarea class="contact-form-text" placeholder="Write a message"></textarea>
+                <div class="Btn">
+                    <button class="btn"><a href="thankyou.html">Subscribe</a></button>
+                </div>
+                
+            </form>
+
+
+        </div>
+
+
+        <!--Footer-->
+
+
+        <div class="footer">
+            <div class="social-media">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube"></i>
+            </div>
+        </div>
+
+
+
+        <script src="https://kit.fontawesome.com/6faae28886.js" crossorigin="anonymous"></script>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var menuBtn = document.getElementById("menu")
+            var menuBtn = document.getElementById("btn")
+
+            menuBtn.onclick = function(){
+                if(menu.style.right == "-200px"){
+                    menu.style.right = "0";
+                    btn.src = "close.png";
+
+                }
+                else{
+                    menu.style.right = "-200px";
+                    btn.src = "menu.png";
+                }
+            }
+        </script>
+</html>    

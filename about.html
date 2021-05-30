@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cse20-12</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner">
+           <a href="index.html"><img src="dubai_logo.png" class="logo"></a>
+            <div class="banner-text">
+                <h1>About</h1>
+            </div>
+        </section>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="lifestyle.html">Lifestyle</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="feedback.html">Connect with us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="menu.png" id="btn">
+        </div>
+
+        <!--About Dubai-->
+
+        <section id="about-dubai">
+            <div class="title-text">
+
+                <h1>What is Dubai?</h1>
+                <div class="border"></div>
+
+            </div>
+            <div class="about-dubai-box">
+            <div class="paragraph">
+                <p>
+                   Dubai is one of the most visited cities in the world and the most populous city in the United Arabian Emerates (UAE), 
+                   with a population of 3.331 million people. Thanks to its amazing citings and beautiful landmarks, 
+                   DUBAI hosts an extravigant amount of beautiful places which people visit every year.
+                </p>
+            </div>
+            <div class="pic-1">
+                <img src="pic-1.png" class="burg">
+            </div>
+            </div>
+
+            <div class="about-dubai-box2">
+                <div class="paragraph-2">
+                    <p>
+                        Located in the eastern part of the Arabian Peninshua on the coast of the persian Gulf, Dubai aims to be the business hub of western Asia.
+                        It is also a major hub for Passangers and cargo.
+                    </p>
+                </div>
+                <div class="pic-2">
+                    <img src="pic-2.png" class="burg">
+                </div>
+            </div>
+        </section>
+
+        <!--Our History-->
+
+       <section id="history">
+           <div class="title">
+
+               <h1>Our History</h1>
+               <div class="border"></div>
+
+           </div>
+
+           <div class="history-box">
+            <div class="paragraph-3">
+                <p>
+                    The major turning point in the history and fortunes of Dubai was the discovery of oil in 1966. Coupled with the joining of the newly independent country of Qatar and Dubai to create a new currency, the Riyal,
+                     after the devaluation of the Persian Gulf rupee which had been issued by the Government of India, it enabled Dubai to rapidly expand and grow. 
+                    Once the first shipment of oil was made in 1969, the future of Dubai as an autonomous state was secured, 
+                    and its ability to dictate policy in later years to the UAE was cemented.
+                </p>
+            </div>
+            <div class="pic-3">
+                <img src="mine-2.png" class="burg">
+            </div>
+           </div>
+
+           <div class="history-box2">
+            <div class="paragraph-4">
+                <p>
+                    Britain left the Persian Gulf in the early part of 1971, having announced their intentions in 1968, causing Dubai and Abu-Dhabi, in conjunction with five other emirates to form the United Arab Emirates. 
+                    Dubai and Abu-Dhabi ensured in the negotiations that between them they could control the country effectively, enabling even greater expansion as seen today. 
+                    In 1973, Dubai joined the other emirates, in introducing the UAE dirham, the uniform currency of the UAE. Dubai and Abu Dhabi between them now hold the majority of control in the UAE, which was part of their conditions for joining. 
+                    To enable this, Abu Dhabi and Dubai are the only emirates who have veto power over matters of national importance, whereas the other emirates only have a vote on such matters. 
+                    In addition to this, Dubai is represented by eight members on the Federal National Council, of whom there are forty in total. 
+                    Dubai and Ras al Khaimah are the only two states who retain their own judicial courts, whilst the others are part of the federal justice system of the UAE. 
+                    The Jebel Ali Free Zone was introduced in 1979, 
+                    providing companies with unrestricted import of labour and export of capital, which helped to jumpstart the influx of global companies seen today.
+                </p>
+            </div>
+            <div class="pic-4">
+                <img src="mine-2.png" class="burg">
+            </div>
+
+
+       </section>
+
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var menuBtn = document.getElementById("menu")
+            var menuBtn = document.getElementById("btn")
+
+            menuBtn.onclick = function(){
+                if(menu.style.right == "-200px"){
+                    menu.style.right = "0";
+                    btn.src = "close.png";
+
+                }
+                else{
+                    menu.style.right = "-200px";
+                    btn.src = "menu.png";
+                }
+            }
+        </script>
+</html>    

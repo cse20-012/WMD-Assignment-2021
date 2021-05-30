@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>cse20-12</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display:ital,wght@1,600&family=Poppins:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:ital@1&family=Playfair+Display&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner">
+           <a href="index.html"><img src="dubai_logo.png" class="logo"></a>
+            <div class="banner-text">
+                <h1>Welcome to Dubai</h1>
+                <p>The Home Of Innovation</p>
+            </div>
+        </section>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="lifestyle.html">Lifestyle</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="feedback.html">Connect with us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="menu.png" id="btn">
+        </div>
+
+
+<!---welcome box--->
+
+        <section id="welcome">
+            <div class="title-text">
+                <p>Welcome to</p>
+                <h1>Dubai</h1>
+                <div class="border"></div>
+            </div> 
+            <div class="welcome-box">
+                <div class="message">
+                    <p>
+                        Here you will find all that you will need to help and aid you
+                        to finding the best places to visit and the best activities to try out 
+                        when planning your trip to DUBAI.
+                        <br><br>
+                        We are going to open your eyes and give you a deeper understanding of
+                        what DUBAI is and all the delights and cousines that you are definitly going 
+                        to enjoy.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <!--Explore-->
+
+        <section id="explore">
+            <div class="title">
+                <h1>Come and Explore</h1>
+            </div>
+            <div class="explore-box">
+                <div class="explore-img">
+                    <img src="mine.png">
+                    <a href="about.html"><div class="overlay"></div></a>
+                    <div class="description">
+                        <h3>Learn Our History</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="explore-img">
+                    <img src="dubai-city.png">
+                    <a href="lifestyle.html"><div class="overlay"></div></a>
+                    <div class="description">
+                        <h3>Explore Our City</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="explore-img">
+                    <img src="camel.png">
+                    <a href="events.html"><div class="overlay"></div></a>
+                    <div class="description">
+                        <h3>Check Out Our Events</h3>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+
+
+        <div class="footer">
+            <div class="social-media">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-youtube"></i>
+            </div>
+        </div>
+        
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var menuBtn = document.getElementById("menu")
+            var menuBtn = document.getElementById("btn")
+
+            menuBtn.onclick = function(){
+                if(menu.style.right == "-200px"){
+                    menu.style.right = "0";
+                    btn.src = "close.png";
+
+                }
+                else{
+                    menu.style.right = "-200px";
+                    btn.src = "menu.png";
+                }
+            }
+        </script> 
+        
+        <script src="https://kit.fontawesome.com/6faae28886.js" crossorigin="anonymous"></script>
+        
+        
+        
+</html>
